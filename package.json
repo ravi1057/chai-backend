@@ -2,9 +2,10 @@
   "name": "chai_our_backend",
   "version": "1.0.0",
   "description": "a backend at chai our code channel",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/index.js"
   },
   "keywords": [
     "nodejs",
@@ -12,5 +13,8 @@
     "mongodb"
   ],
   "author": "ravi",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
 }
